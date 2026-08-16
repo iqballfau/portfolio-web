@@ -46,6 +46,7 @@ buttons in the navbar. Priority / default order:
 
 The active language is remembered in `localStorage`. All translated strings live in
 `assets/js/script.js`:
+
 - `UI` — static interface labels (nav, buttons, section headings)
 - `PROFILE`, `SKILLS`, `EXPERIENCE`, `PROJECTS`, `EDUCATION`, `CERTIFICATIONS`, `LANGUAGES`
   — CV/portfolio content, each translatable field keyed by `en` / `de` / `id`
