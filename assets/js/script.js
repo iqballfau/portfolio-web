@@ -10,7 +10,15 @@
 --------------------------------------------------------- */
 const UI = {
   en: {
-    nav: { home: "Home", about: "About", skills: "Skills", experience: "Experience", projects: "Projects", contact: "Contact", cv: "CV" },
+    nav: {
+      home: "Home",
+      about: "About",
+      skills: "Skills",
+      experience: "Experience",
+      projects: "Projects",
+      contact: "Contact",
+      cv: "CV",
+    },
     hero: {
       eyebrow: "IOT & AUTOMATION ENGINEER",
       tagline: "Bridging OT & IT for Industry 4.0",
@@ -18,7 +26,11 @@ const UI = {
       ctaProjects: "View Projects",
       ctaCV: "Download CV",
     },
-    about: { label: "REC.01 — ABOUT", heading: "About me", stackLabel: "Primary stack" },
+    about: {
+      label: "REC.01 — ABOUT",
+      heading: "About me",
+      stackLabel: "Primary stack",
+    },
     skills: { label: "REC.02 — SKILLS", heading: "Technical skills" },
     experience: {
       label: "REC.03 — EXPERIENCE",
@@ -30,7 +42,8 @@ const UI = {
       label: "REC.04 — PROJECTS",
       heading: "Featured projects",
       headingAll: "All projects",
-      subheadingAll: "Full documentation of industrial IoT & automation projects I've worked on.",
+      subheadingAll:
+        "Full documentation of industrial IoT & automation projects I've worked on.",
       viewAll: "View all projects →",
       viewDetail: "View detail →",
       backToProjects: "← All projects",
@@ -43,7 +56,10 @@ const UI = {
       technologies: "Technologies",
     },
     education: { label: "REC.05 — EDUCATION", heading: "Education" },
-    certifications: { label: "REC.06 — CERTIFICATIONS", heading: "Certifications & achievements" },
+    certifications: {
+      label: "REC.06 — CERTIFICATIONS",
+      heading: "Certifications & achievements",
+    },
     languages: { label: "REC.07 — LANGUAGES", heading: "Languages" },
     contact: {
       label: "REC.08 — CONTACT",
@@ -63,7 +79,15 @@ const UI = {
     },
   },
   de: {
-    nav: { home: "Startseite", about: "Über mich", skills: "Fähigkeiten", experience: "Erfahrung", projects: "Projekte", contact: "Kontakt", cv: "Lebenslauf" },
+    nav: {
+      home: "Startseite",
+      about: "Über mich",
+      skills: "Fähigkeiten",
+      experience: "Erfahrung",
+      projects: "Projekte",
+      contact: "Kontakt",
+      cv: "Lebenslauf",
+    },
     hero: {
       eyebrow: "IOT & AUTOMATION ENGINEER",
       tagline: "OT & IT für Industrie 4.0 verbinden",
@@ -71,8 +95,15 @@ const UI = {
       ctaProjects: "Projekte ansehen",
       ctaCV: "Lebenslauf herunterladen",
     },
-    about: { label: "REC.01 — ÜBER MICH", heading: "Über mich", stackLabel: "Kerntechnologien" },
-    skills: { label: "REC.02 — FÄHIGKEITEN", heading: "Technische Fähigkeiten" },
+    about: {
+      label: "REC.01 — ÜBER MICH",
+      heading: "Über mich",
+      stackLabel: "Kerntechnologien",
+    },
+    skills: {
+      label: "REC.02 — FÄHIGKEITEN",
+      heading: "Technische Fähigkeiten",
+    },
     experience: {
       label: "REC.03 — ERFAHRUNG",
       heading: "Berufserfahrung",
@@ -83,7 +114,8 @@ const UI = {
       label: "REC.04 — PROJEKTE",
       heading: "Ausgewählte Projekte",
       headingAll: "Alle Projekte",
-      subheadingAll: "Vollständige Dokumentation der industriellen IoT- und Automatisierungsprojekte, an denen ich gearbeitet habe.",
+      subheadingAll:
+        "Vollständige Dokumentation der industriellen IoT- und Automatisierungsprojekte, an denen ich gearbeitet habe.",
       viewAll: "Alle Projekte ansehen →",
       viewDetail: "Details ansehen →",
       backToProjects: "← Alle Projekte",
@@ -96,7 +128,10 @@ const UI = {
       technologies: "Technologien",
     },
     education: { label: "REC.05 — AUSBILDUNG", heading: "Ausbildung" },
-    certifications: { label: "REC.06 — ZERTIFIZIERUNGEN", heading: "Zertifizierungen & Erfolge" },
+    certifications: {
+      label: "REC.06 — ZERTIFIZIERUNGEN",
+      heading: "Zertifizierungen & Erfolge",
+    },
     languages: { label: "REC.07 — SPRACHEN", heading: "Sprachen" },
     contact: {
       label: "REC.08 — KONTAKT",
@@ -116,7 +151,15 @@ const UI = {
     },
   },
   id: {
-    nav: { home: "Home", about: "Tentang", skills: "Keahlian", experience: "Pengalaman", projects: "Project", contact: "Kontak", cv: "CV" },
+    nav: {
+      home: "Home",
+      about: "Tentang",
+      skills: "Keahlian",
+      experience: "Pengalaman",
+      projects: "Project",
+      contact: "Kontak",
+      cv: "CV",
+    },
     hero: {
       eyebrow: "IOT & AUTOMATION ENGINEER",
       tagline: "Menjembatani OT & IT untuk Industry 4.0",
@@ -124,7 +167,11 @@ const UI = {
       ctaProjects: "Lihat Project",
       ctaCV: "Unduh CV",
     },
-    about: { label: "REC.01 — TENTANG", heading: "Tentang saya", stackLabel: "Primary stack" },
+    about: {
+      label: "REC.01 — TENTANG",
+      heading: "Tentang saya",
+      stackLabel: "Primary stack",
+    },
     skills: { label: "REC.02 — KEAHLIAN", heading: "Keahlian teknis" },
     experience: {
       label: "REC.03 — PENGALAMAN",
@@ -136,7 +183,8 @@ const UI = {
       label: "REC.04 — PROJECT",
       heading: "Project unggulan",
       headingAll: "Semua project",
-      subheadingAll: "Dokumentasi lengkap project industrial IoT & automation yang pernah saya kerjakan.",
+      subheadingAll:
+        "Dokumentasi lengkap project industrial IoT & automation yang pernah saya kerjakan.",
       viewAll: "Lihat semua project →",
       viewDetail: "Lihat detail →",
       backToProjects: "← Semua project",
@@ -149,7 +197,10 @@ const UI = {
       technologies: "Teknologi",
     },
     education: { label: "REC.05 — EDUKASI", heading: "Pendidikan" },
-    certifications: { label: "REC.06 — SERTIFIKASI", heading: "Sertifikasi & prestasi" },
+    certifications: {
+      label: "REC.06 — SERTIFIKASI",
+      heading: "Sertifikasi & prestasi",
+    },
     languages: { label: "REC.07 — BAHASA", heading: "Bahasa" },
     contact: {
       label: "REC.08 — KONTAK",
@@ -189,16 +240,64 @@ const PROFILE = {
     de: "Engagierter IoT- und Automatisierungsingenieur mit einer stetig wachsenden Erfolgsbilanz – vom Betrieb europäischer Standardmaschinen bis hin zu fortschrittlicher industrieller Digitalisierung. Nachgewiesene Expertise in der Verbindung von Operational Technology (OT) und Information Technology (IT) durch die Gestaltung robuster industrieller Netzwerktopologien und die Implementierung vielfältiger Machine-to-Machine (M2M)-Kommunikationsprotokolle, darunter OPC UA, Modbus RTU/TCP und MQTT. Mit Leidenschaft für Automatisierung, nahtlose Datenerfassung und intelligente Vernetzung treibe ich Industrie-4.0-Initiativen voran und optimiere die Fertigungseffizienz.",
     id: "Dedicated IoT and Automation Engineer dengan track record yang berkembang — mulai dari mengoperasikan mesin berstandar Eropa hingga memimpin proyek digitalisasi industri tingkat lanjut. Memiliki keahlian dalam menjembatani Operational Technology (OT) dan Information Technology (IT) melalui perancangan topologi jaringan industri yang solid dan implementasi berbagai protokol komunikasi machine-to-machine (M2M), termasuk OPC UA, Modbus RTU/TCP, dan MQTT. Passionate dalam memanfaatkan automation, data acquisition yang seamless, dan smart networking untuk mendorong inisiatif Industry 4.0 serta mengoptimalkan efisiensi manufaktur.",
   },
-  primaryStack: ["OPC UA", "Node-RED", "Modbus RTU/TCP", "MQTT", "Siemens TIA Portal", "Moxa", "C/C++", "Python", "PLC Programming"],
+  primaryStack: [
+    "OPC UA",
+    "Node-RED",
+    "Modbus RTU/TCP",
+    "MQTT",
+    "Siemens TIA Portal",
+    "Moxa",
+    "C/C++",
+    "Python",
+    "PLC Programming",
+  ],
 };
 
 const SKILLS = [
-  { label: { en: "Automation & Hardware", de: "Automatisierung & Hardware", id: "Automation & Hardware" }, items: ["PLC Programming (Siemens, Mitsubishi, Keyence)", "Raspberry Pi"] },
-  { label: { en: "IoT & Software", de: "IoT & Software", id: "IoT & Software" }, items: ["C/C++", "Python", "JavaScript", "Node.js"] },
-  { label: { en: "Databases & Cloud", de: "Datenbanken & Cloud", id: "Database & Cloud" }, items: ["MySQL", "MongoDB", "Firebase"] },
-  { label: { en: "Engineering & Design Tools", de: "Engineering- & Design-Tools", id: "Tools Rekayasa & Desain" }, items: ["SolidWorks (CAD)", "Proteus", "VS Code"] },
-  { label: { en: "Additional Development", de: "Weitere Entwicklung", id: "Pengembangan Tambahan" }, items: ["Flutter", "Dart", "Android Studio"] },
-  { label: { en: "Industrial Protocols & Networking", de: "Industrielle Protokolle & Netzwerktechnik", id: "Protokol & Jaringan Industrial" }, items: ["OPC UA", "Modbus RTU/TCP", "MQTT", "Moxa Turbo Roaming"] },
+  {
+    label: {
+      en: "Automation & Hardware",
+      de: "Automatisierung & Hardware",
+      id: "Automation & Hardware",
+    },
+    items: ["PLC Programming (Siemens, Mitsubishi, Keyence)", "Raspberry Pi"],
+  },
+  {
+    label: { en: "IoT & Software", de: "IoT & Software", id: "IoT & Software" },
+    items: ["C/C++", "Python", "JavaScript", "Node.js"],
+  },
+  {
+    label: {
+      en: "Databases & Cloud",
+      de: "Datenbanken & Cloud",
+      id: "Database & Cloud",
+    },
+    items: ["MySQL", "MongoDB", "Firebase"],
+  },
+  {
+    label: {
+      en: "Engineering & Design Tools",
+      de: "Engineering- & Design-Tools",
+      id: "Tools Rekayasa & Desain",
+    },
+    items: ["SolidWorks (CAD)", "Proteus", "VS Code"],
+  },
+  {
+    label: {
+      en: "Additional Development",
+      de: "Weitere Entwicklung",
+      id: "Pengembangan Tambahan",
+    },
+    items: ["Flutter", "Dart", "Android Studio"],
+  },
+  {
+    label: {
+      en: "Industrial Protocols & Networking",
+      de: "Industrielle Protokolle & Netzwerktechnik",
+      id: "Protokol & Jaringan Industrial",
+    },
+    items: ["OPC UA", "Modbus RTU/TCP", "MQTT", "Moxa Turbo Roaming"],
+  },
 ];
 
 const EXPERIENCE = [
@@ -209,7 +308,14 @@ const EXPERIENCE = [
     location: "Bekasi, Indonesia",
     current: true,
     role: { en: "IoT Engineer", de: "IoT-Ingenieur", id: "IoT Engineer" },
-    stack: ["Node-RED", "Modbus RTU/TCP", "Siemens TIA Portal", "Moxa AWK Series", "Keyence", "Mitsubishi PLC"],
+    stack: [
+      "Node-RED",
+      "Modbus RTU/TCP",
+      "Siemens TIA Portal",
+      "Moxa AWK Series",
+      "Keyence",
+      "Mitsubishi PLC",
+    ],
     bullets: {
       en: [
         "Spearheading implementation of the MAC (Musashi Active Connection) roadmap to drive factory digitalization toward 2030 Industry 4.0 goals.",
@@ -237,8 +343,17 @@ const EXPERIENCE = [
     company: "International University of Logistics and Business",
     location: "Bandung, Indonesia",
     current: false,
-    role: { en: "Information Technology Engineer", de: "IT-Ingenieur", id: "Information Technology Engineer" },
-    stack: ["IT Infrastructure", "LAN/WAN Configuration", "Server Maintenance", "Database Administration"],
+    role: {
+      en: "Information Technology Engineer",
+      de: "IT-Ingenieur",
+      id: "Information Technology Engineer",
+    },
+    stack: [
+      "IT Infrastructure",
+      "LAN/WAN Configuration",
+      "Server Maintenance",
+      "Database Administration",
+    ],
     bullets: {
       en: [
         "Managed and optimized IT infrastructure, including local network configurations and server maintenance.",
@@ -266,8 +381,18 @@ const EXPERIENCE = [
     company: "PT. Samudra Teknologi Pertiwi",
     location: "Bandung, Indonesia",
     current: false,
-    role: { en: "IoT & Automation Engineer", de: "IoT- & Automatisierungsingenieur", id: "IoT & Automation Engineer" },
-    stack: ["Arduino", "Raspberry Pi", "PLC Programming", "Android/iOS Development", "IT/OT Integration"],
+    role: {
+      en: "IoT & Automation Engineer",
+      de: "IoT- & Automatisierungsingenieur",
+      id: "IoT & Automation Engineer",
+    },
+    stack: [
+      "Arduino",
+      "Raspberry Pi",
+      "PLC Programming",
+      "Android/iOS Development",
+      "IT/OT Integration",
+    ],
     bullets: {
       en: [
         "Bridged OT and IT by conceptualizing and developing embedded systems using Arduino and Raspberry Pi.",
@@ -295,8 +420,17 @@ const EXPERIENCE = [
     company: "Continental Kft.",
     location: "Mako, Hungary",
     current: false,
-    role: { en: "Autoclave Machine Operator", de: "Autoklaven-Maschinenbediener", id: "Autoclave Machine Operator" },
-    stack: ["European Manufacturing Standards", "Quality Control", "Predictive Monitoring", "HSE Protocols"],
+    role: {
+      en: "Autoclave Machine Operator",
+      de: "Autoklaven-Maschinenbediener",
+      id: "Autoclave Machine Operator",
+    },
+    stack: [
+      "European Manufacturing Standards",
+      "Quality Control",
+      "Predictive Monitoring",
+      "HSE Protocols",
+    ],
     bullets: {
       en: [
         "Operated complex autoclave production machinery within a high-standard European automotive environment.",
@@ -324,8 +458,16 @@ const EXPERIENCE = [
     company: "PT. Mekar Armada Jaya",
     location: "Bekasi, Indonesia",
     current: false,
-    role: { en: "Maintenance Engineering Intern", de: "Praktikant Instandhaltungstechnik", id: "Maintenance Engineering Intern" },
-    stack: ["Preventive Maintenance", "Heavy Industrial Machinery", "Digital Documentation"],
+    role: {
+      en: "Maintenance Engineering Intern",
+      de: "Praktikant Instandhaltungstechnik",
+      id: "Maintenance Engineering Intern",
+    },
+    stack: [
+      "Preventive Maintenance",
+      "Heavy Industrial Machinery",
+      "Digital Documentation",
+    ],
     bullets: {
       en: [
         "Performed predictive and preventive maintenance on stamping machines, welding units, and conveyors.",
@@ -355,7 +497,11 @@ const PROJECTS = [
     code: "PRJ-01",
     period: "02/2026 — Present",
     company: "PT Musashi Auto Parts Indonesia",
-    role: { en: "IoT Engineer (Lead Integrator)", de: "IoT-Ingenieur (Lead Integrator)", id: "IoT Engineer (Lead Integrator)" },
+    role: {
+      en: "IoT Engineer (Lead Integrator)",
+      de: "IoT-Ingenieur (Lead Integrator)",
+      id: "IoT Engineer (Lead Integrator)",
+    },
     title: {
       en: "OPC UA-Based Real-Time Monitoring System for Hatebur Forging Machines",
       de: "OPC-UA-basiertes Echtzeit-Überwachungssystem für Hatebur-Schmiedemaschinen",
@@ -394,14 +540,27 @@ const PROJECTS = [
         "Membangun dashboard interaktif Power BI untuk visualisasi performa produksi real-time.",
       ],
     },
-    tech: ["Siemens S7-1200", "TIA Portal", "OPC UA", "Hatebur Forging Press", "USR IoT Gateway", "Node-RED", "MSSQL", "Power BI"],
+    tech: [
+      "Siemens S7-1200",
+      "TIA Portal",
+      "OPC UA",
+      "Hatebur Forging Press",
+      "USR IoT Gateway",
+      "Node-RED",
+      "MSSQL",
+      "Power BI",
+    ],
   },
   {
     id: "heat-treatment-monitoring",
     code: "PRJ-02",
     period: "08/2025 — 01/2026",
     company: "PT Musashi Auto Parts Indonesia",
-    role: { en: "IoT Engineer (Lead Integrator)", de: "IoT-Ingenieur (Lead Integrator)", id: "IoT Engineer (Lead Integrator)" },
+    role: {
+      en: "IoT Engineer (Lead Integrator)",
+      de: "IoT-Ingenieur (Lead Integrator)",
+      id: "IoT Engineer (Lead Integrator)",
+    },
     title: {
       en: "Real-Time Monitoring System for Heat Treatment Machines",
       de: "Echtzeit-Überwachungssystem für Wärmebehandlungsmaschinen",
@@ -440,14 +599,27 @@ const PROJECTS = [
         "Membuat dashboard Power BI untuk visualisasi tren temperatur & status mesin real-time.",
       ],
     },
-    tech: ["Mitsubishi Q02HCPU", "Keyence TR-W1000", "Keyence KV-8000", "Moxa AWK-3252A", "USR IoT Devices", "Node-RED", "MSSQL", "Power BI"],
+    tech: [
+      "Mitsubishi Q02HCPU",
+      "Keyence TR-W1000",
+      "Keyence KV-8000",
+      "Moxa AWK-3252A",
+      "USR IoT Devices",
+      "Node-RED",
+      "MSSQL",
+      "Power BI",
+    ],
   },
   {
     id: "agv-wireless-control",
     code: "PRJ-03",
     period: "03/2025 — 08/2025",
     company: "PT Musashi Auto Parts Indonesia",
-    role: { en: "IoT Engineer (Lead Integrator)", de: "IoT-Ingenieur (Lead Integrator)", id: "IoT Engineer (Lead Integrator)" },
+    role: {
+      en: "IoT Engineer (Lead Integrator)",
+      de: "IoT-Ingenieur (Lead Integrator)",
+      id: "IoT Engineer (Lead Integrator)",
+    },
     title: {
       en: "Wireless Network Integration & Control System for AGV",
       de: "Drahtlose Netzwerkintegration & Steuerungssystem für AGV",
@@ -486,14 +658,25 @@ const PROJECTS = [
         "Mensentralisasi telemetri AGV ke PLC master KV-8000 & dashboard monitoring lokal untuk operator.",
       ],
     },
-    tech: ["Keyence KV-8000", "Keyence IV-3", "Hokuyo LiDAR", "Moxa AWK-3252A", "Moxa AWK-1137C", "Mitsubishi FX5U"],
+    tech: [
+      "Keyence KV-8000",
+      "Keyence IV-3",
+      "Hokuyo LiDAR",
+      "Moxa AWK-3252A",
+      "Moxa AWK-1137C",
+      "Mitsubishi FX5U",
+    ],
   },
   {
     id: "energy-monitoring",
     code: "PRJ-04",
     period: "01/2025 — 03/2025",
     company: "PT Musashi Auto Parts Indonesia",
-    role: { en: "IoT Engineer (Lead Integrator)", de: "IoT-Ingenieur (Lead Integrator)", id: "IoT Engineer (Lead Integrator)" },
+    role: {
+      en: "IoT Engineer (Lead Integrator)",
+      de: "IoT-Ingenieur (Lead Integrator)",
+      id: "IoT Engineer (Lead Integrator)",
+    },
     title: {
       en: "Industrial Energy Monitoring & Digitalization System",
       de: "Industrielles Energiemonitoring- & Digitalisierungssystem",
@@ -532,14 +715,24 @@ const PROJECTS = [
         "Mengembangkan dashboard Power BI untuk monitoring energi real-time & deteksi anomali konsumsi.",
       ],
     },
-    tech: ["PM5500 Power Meter", "Mitsubishi ME96SSHB", "USR IoT Clients", "Modbus RTU/TCP", "Power BI"],
+    tech: [
+      "PM5500 Power Meter",
+      "Mitsubishi ME96SSHB",
+      "USR IoT Clients",
+      "Modbus RTU/TCP",
+      "Power BI",
+    ],
   },
   {
     id: "digital-twin-injection-molding",
     code: "PRJ-05",
     period: "01/2022 — 08/2022",
     company: "PT Biggy Cemerlang (Academic Final Project)",
-    role: { en: "Automation Engineering Student (Lead Developer)", de: "Student der Automatisierungstechnik (Lead Developer)", id: "Automation Engineering Student (Lead Developer)" },
+    role: {
+      en: "Automation Engineering Student (Lead Developer)",
+      de: "Student der Automatisierungstechnik (Lead Developer)",
+      id: "Automation Engineering Student (Lead Developer)",
+    },
     title: {
       en: "IIoT-Based Digital Twin Monitoring System for Injection Molding Machines",
       de: "IIoT-basiertes Digital-Twin-Überwachungssystem für Spritzgussmaschinen",
@@ -578,12 +771,24 @@ const PROJECTS = [
         "Merancang backend data pipeline IIoT (REST API, JSON) dan penyimpanan data historis di MongoDB.",
       ],
     },
-    tech: ["FANUC ROBOSHOT α-SiA", "SolidWorks", "Unity 3D", "WebGL", "ReactJS", "MongoDB", "REST API"],
+    tech: [
+      "FANUC ROBOSHOT α-SiA",
+      "SolidWorks",
+      "Unity 3D",
+      "WebGL",
+      "ReactJS",
+      "MongoDB",
+      "REST API",
+    ],
   },
 ];
 
 const EDUCATION = {
-  degree: { en: "Bachelor of Applied Science (D4) in Automation Engineering", de: "Bachelor of Applied Science (D4) in Automatisierungstechnik", id: "Sarjana Terapan (D4) Teknik Otomasi" },
+  degree: {
+    en: "Bachelor of Applied Science (D4) in Automation Engineering",
+    de: "Bachelor of Applied Science (D4) in Automatisierungstechnik",
+    id: "Sarjana Terapan (D4) Teknik Otomasi",
+  },
   school: "Bandung Manufacturing Polytechnic",
   location: "Bandung, Indonesia",
   period: "08/2018 — 08/2022",
@@ -608,16 +813,64 @@ const EDUCATION = {
 };
 
 const CERTIFICATIONS = [
-  { year: "2022", title: { en: "Certified Electrical Installation and Maintenance Engineer", de: "Zertifizierter Ingenieur für Elektroinstallation und -wartung", id: "Certified Electrical Installation and Maintenance Engineer" }, org: "BNSP" },
-  { year: "2020", title: { en: "Certified Complex Industrial Electrical Maintenance", de: "Zertifiziert in komplexer industrieller Elektrowartung", id: "Certified Complex Industrial Electrical Maintenance" }, org: "BNSP" },
-  { year: "2020", title: { en: "Runner-Up, Indonesian ABU Robot Contest (KRAI) — Regional Level II", de: "Zweiter Platz, Indonesischer ABU-Roboterwettbewerb (KRAI) — Regionalebene II", id: "Runner-Up, Indonesian ABU Robot Contest (KRAI) — Regional Level II" }, org: "KRAI" },
+  {
+    year: "2022",
+    title: {
+      en: "Certified Electrical Installation and Maintenance Engineer",
+      de: "Zertifizierter Ingenieur für Elektroinstallation und -wartung",
+      id: "Certified Electrical Installation and Maintenance Engineer",
+    },
+    org: "BNSP",
+  },
+  {
+    year: "2020",
+    title: {
+      en: "Certified Complex Industrial Electrical Maintenance",
+      de: "Zertifiziert in komplexer industrieller Elektrowartung",
+      id: "Certified Complex Industrial Electrical Maintenance",
+    },
+    org: "BNSP",
+  },
+  {
+    year: "2020",
+    title: {
+      en: "Runner-Up, Indonesian ABU Robot Contest (KRAI) — Regional Level II",
+      de: "Zweiter Platz, Indonesischer ABU-Roboterwettbewerb (KRAI) — Regionalebene II",
+      id: "Runner-Up, Indonesian ABU Robot Contest (KRAI) — Regional Level II",
+    },
+    org: "KRAI",
+  },
 ];
 
 const LANGUAGES = [
-  { name: { en: "Indonesian", de: "Indonesisch", id: "Indonesian" }, level: { en: "Native", de: "Muttersprache", id: "Native" } },
-  { name: { en: "English", de: "Englisch", id: "English" }, level: { en: "Intermediate (B1)", de: "Mittelstufe (B1)", id: "Intermediate (B1)" } },
-  { name: { en: "German", de: "Deutsch", id: "German" }, level: { en: "Intermediate (B1 – In Preparation)", de: "Mittelstufe (B1 – in Vorbereitung)", id: "Intermediate (B1 – Persiapan)" } },
-  { name: { en: "Hungarian (Magyar)", de: "Ungarisch (Magyar)", id: "Hungarian (Magyar)" }, level: { en: "Beginner (A1)", de: "Anfänger (A1)", id: "Pemula (A1)" } },
+  {
+    name: { en: "Indonesian", de: "Indonesisch", id: "Indonesian" },
+    level: { en: "Native", de: "Muttersprache", id: "Native" },
+  },
+  {
+    name: { en: "English", de: "Englisch", id: "English" },
+    level: {
+      en: "Intermediate (B1)",
+      de: "Mittelstufe (B1)",
+      id: "Intermediate (B1)",
+    },
+  },
+  {
+    name: { en: "German", de: "Deutsch", id: "German" },
+    level: {
+      en: "Intermediate (B1 – In Preparation)",
+      de: "Mittelstufe (B1 – in Vorbereitung)",
+      id: "Intermediate (B1 – Persiapan)",
+    },
+  },
+  {
+    name: {
+      en: "Hungarian (Magyar)",
+      de: "Ungarisch (Magyar)",
+      id: "Hungarian (Magyar)",
+    },
+    level: { en: "Beginner (A1)", de: "Anfänger (A1)", id: "Pemula (A1)" },
+  },
 ];
 
 /* ---------------------------------------------------------
@@ -627,7 +880,12 @@ const LANGUAGES = [
 let currentLang = localStorage.getItem("lang") || "en";
 
 function t(path) {
-  return path.split(".").reduce((acc, key) => (acc && acc[key] !== undefined ? acc[key] : null), UI[currentLang]);
+  return path
+    .split(".")
+    .reduce(
+      (acc, key) => (acc && acc[key] !== undefined ? acc[key] : null),
+      UI[currentLang],
+    );
 }
 
 function applyStaticI18n() {
@@ -683,7 +941,7 @@ function renderSkills() {
       <div class="skill-tags">
         ${group.items.map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
-    </div>`
+    </div>`,
   ).join("");
 }
 
@@ -708,7 +966,7 @@ function renderExperienceTimeline() {
           ${job.stack.map((s) => `<span class="tag tag-sm">${escapeHtml(s)}</span>`).join("")}
         </div>
       </div>
-    </div>`
+    </div>`,
   ).join("");
 }
 
@@ -720,7 +978,10 @@ function projectCard(p) {
       <h3 class="card-title">${escapeHtml(p.title[currentLang])}</h3>
       <p class="card-summary">${escapeHtml(p.summary[currentLang])}</p>
       <div class="skill-tags">
-        ${p.tech.slice(0, 4).map((s) => `<span class="tag tag-sm">${escapeHtml(s)}</span>`).join("")}
+        ${p.tech
+          .slice(0, 4)
+          .map((s) => `<span class="tag tag-sm">${escapeHtml(s)}</span>`)
+          .join("")}
       </div>
       <span class="card-link">${t("projects.viewDetail")}</span>
     </a>`;
@@ -812,7 +1073,7 @@ function renderCV() {
           </div>
           <p class="cv-entry-sub">${escapeHtml(job.company)} — ${escapeHtml(job.location)}</p>
           <ul>${job.bullets[currentLang].map((b) => `<li>${escapeHtml(b)}</li>`).join("")}</ul>
-        </div>`
+        </div>`,
       ).join("")}
     </section>
 
@@ -850,18 +1111,32 @@ function renderCV() {
 }
 
 function renderAbout() {
-  document.querySelectorAll(".js-about-text").forEach((el) => (el.textContent = PROFILE.about[currentLang]));
+  document
+    .querySelectorAll(".js-about-text")
+    .forEach((el) => (el.textContent = PROFILE.about[currentLang]));
   document.querySelectorAll(".js-primary-stack").forEach((el) => {
-    el.innerHTML = PROFILE.primaryStack.map((s) => `<span class="tag">${escapeHtml(s)}</span>`).join("");
+    el.innerHTML = PROFILE.primaryStack
+      .map((s) => `<span class="tag">${escapeHtml(s)}</span>`)
+      .join("");
   });
 }
 
 function renderContactInfo() {
-  document.querySelectorAll(".js-email").forEach((elx) => (elx.textContent = PROFILE.email));
-  document.querySelectorAll(".js-email-href").forEach((elx) => elx.setAttribute("href", `mailto:${PROFILE.email}`));
-  document.querySelectorAll(".js-phone").forEach((elx) => (elx.textContent = PROFILE.phone));
-  document.querySelectorAll(".js-github-href").forEach((elx) => elx.setAttribute("href", PROFILE.githubUrl));
-  document.querySelectorAll(".js-linkedin-href").forEach((elx) => elx.setAttribute("href", PROFILE.linkedinUrl));
+  document
+    .querySelectorAll(".js-email")
+    .forEach((elx) => (elx.textContent = PROFILE.email));
+  document
+    .querySelectorAll(".js-email-href")
+    .forEach((elx) => elx.setAttribute("href", `mailto:${PROFILE.email}`));
+  document
+    .querySelectorAll(".js-phone")
+    .forEach((elx) => (elx.textContent = PROFILE.phone));
+  document
+    .querySelectorAll(".js-github-href")
+    .forEach((elx) => elx.setAttribute("href", PROFILE.githubUrl));
+  document
+    .querySelectorAll(".js-linkedin-href")
+    .forEach((elx) => elx.setAttribute("href", PROFILE.linkedinUrl));
 }
 
 function renderPage() {
@@ -881,7 +1156,10 @@ function renderPage() {
 --------------------------------------------------------- */
 function initReveal() {
   const items = document.querySelectorAll(".reveal:not(.is-visible)");
-  if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  if (
+    !("IntersectionObserver" in window) ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  ) {
     items.forEach((el) => el.classList.add("is-visible"));
     return;
   }
@@ -894,7 +1172,7 @@ function initReveal() {
         }
       });
     },
-    { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+    { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
   );
   items.forEach((el) => observer.observe(el));
 }
@@ -914,7 +1192,7 @@ function initNav() {
     a.addEventListener("click", () => {
       menu.classList.remove("is-open");
       toggle.setAttribute("aria-expanded", "false");
-    })
+    }),
   );
 }
 

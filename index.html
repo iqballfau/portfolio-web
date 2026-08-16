@@ -1,197 +1,376 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" href="favicon.ico" sizes="any" />
-<title>Iqbal Fauzan — IoT & Automation Engineer</title>
-<meta name="description" content="Portfolio of Iqbal Fauzan, an IoT & Automation Engineer focused on OT/IT integration, industrial networking, and factory digitalization." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          paper: "#FAFAF8",
-          ink: "#1B1F23",
-          inkmuted: "#5B6169",
-          blueprint: "#2E5FA3",
-          signal: "#1E8F6F",
-          hairline: "#D7DBE0",
-        },
-        fontFamily: {
-          display: ['"Space Grotesk"', "sans-serif"],
-          body: ["Inter", "sans-serif"],
-          mono: ['"JetBrains Mono"', "monospace"],
-        },
-      },
-    },
-  };
-</script>
-<link rel="stylesheet" href="assets/css/style.css" />
-<style>
-  /* CSS Khusus untuk mengatur gradasi foto agar responsif (Beda di HP dan Laptop) */
-  .hero-img-mask {
-    /* Di HP: Tidak ada gradasi kiri, hanya gradasi bawah sedikit agar halus */
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 10%);
-    mask-image: linear-gradient(to top, transparent 0%, black 10%);
-  }
-  @media (min-width: 768px) {
-    .hero-img-mask {
-      /* Di Laptop/Desktop: Gradasi kiri agar menyatu dengan teks */
-      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%);
-      mask-image: linear-gradient(to right, transparent 0%, black 25%);
-    }
-  }
-</style>
-</head>
-<body class="font-body bg-paper text-ink">
-
-<nav class="site-nav no-print">
-  <div class="max-w-5xl mx-auto px-6 flex items-center justify-between h-16">
-    <a href="index.html" class="font-display font-medium text-lg text-ink">Iqbal Fauzan<span class="text-blueprint">.</span></a>
-    <button id="nav-toggle" class="md:hidden p-2" aria-label="Menu" aria-expanded="false">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <div id="nav-menu" class="md:flex items-center gap-7 py-4 md:py-0">
-      <a class="nav-link block py-2 md:py-0" href="#about" data-i18n="nav.about">About</a>
-      <a class="nav-link block py-2 md:py-0" href="#skills" data-i18n="nav.skills">Skills</a>
-      <a class="nav-link block py-2 md:py-0" href="#experience" data-i18n="nav.experience">Experience</a>
-      <a class="nav-link block py-2 md:py-0" href="#projects" data-i18n="nav.projects">Projects</a>
-      <a class="nav-link block py-2 md:py-0" href="cv.html" data-i18n="nav.cv">CV</a>
-      <a class="nav-link block py-2 md:py-0" href="#contact" data-i18n="nav.contact">Contact</a>
-      <div class="flex gap-1 pt-2 md:pt-0">
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="de">DE</button>
-        <button class="lang-btn" data-lang="id">ID</button>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<main>
-  <!-- HERO -->
-  <section class="relative overflow-hidden">
-    <!-- Grid Background -->
-    <div class="grid-blueprint absolute inset-0 h-full pointer-events-none"></div>
-    
-    <div class="relative max-w-5xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
-      
-      <!-- Wrapper with solid background to overlay the grid elegantly -->
-      <div class="relative flex flex-col md:flex-row items-center justify-between bg-paper z-10">
-        
-        <!-- Text Column -->
-        <div class="relative z-10 flex flex-col justify-center w-full md:w-[60%] py-4 md:py-8">
-          <p class="font-display text-2xl md:text-[2.25rem] font-medium text-ink mb-1 md:mb-3">hi, i’m</p>
-          
-          <!-- Name in single line with whitespace-nowrap -->
-          <h1 class="font-display text-5xl md:text-[5.5rem] font-bold leading-[1] tracking-tight mb-4 text-ink whitespace-nowrap relative z-20">Iqbal Fauzan</h1>
-          
-          <p class="text-base md:text-xl font-display font-medium text-ink mb-1 uppercase tracking-wide" data-i18n="hero.eyebrow">IOT & AUTOMATION ENGINEER</p>
-          
-          <!-- Tagline sized down -->
-          <p class="text-sm md:text-base text-inkmuted mb-8" data-i18n="hero.tagline">Bridging OT & IT for Industry 4.0</p>
-          
-          <div class="flex flex-wrap items-center gap-4 mb-8">
-            <a href="cv.html" class="btn !bg-black !text-white !border-black hover:!bg-white hover:!text-black !px-6 !py-2.5 !rounded-md font-medium transition-colors" data-i18n="hero.ctaCV">Download CV</a>
-            <a href="projects.html" class="btn !bg-transparent !text-black border border-black hover:!bg-gray-100 !px-6 !py-2.5 !rounded-md font-medium transition-colors" data-i18n="hero.ctaProjects">View projects</a>
-          </div>
-
-          <div class="inline-flex items-center gap-2.5 px-4 py-2 bg-[#E2F0E9] rounded-full w-max shadow-sm relative z-20">
-            <span class="w-3 h-3 rounded-full bg-[#1E8F6F]"></span>
-            <span class="text-xs md:text-sm font-medium text-ink" data-i18n="hero.status">Open to new opportunities</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <title>Iqbal Fauzan — IoT & Automation Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Iqbal Fauzan, an IoT & Automation Engineer focused on OT/IT integration, industrial networking, and factory digitalization."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-paper: #fafaf8;
+        --color-ink: #1b1f23;
+        --color-inkmuted: #5b6169;
+        --color-blueprint: #2e5fa3;
+        --color-signal: #1e8f6f;
+        --color-hairline: #d7dbe0;
+        --font-display: "Space Grotesk", sans-serif;
+        --font-body: "Inter", sans-serif;
+        --font-mono: "JetBrains Mono", monospace;
+      }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      /* CSS Khusus untuk mengatur gradasi foto agar responsif (Beda di HP dan Laptop) */
+      .hero-img-mask {
+        /* Di HP: Tidak ada gradasi kiri, hanya gradasi bawah sedikit agar halus */
+        -webkit-mask-image: linear-gradient(to top, transparent 0%, black 10%);
+        mask-image: linear-gradient(to top, transparent 0%, black 10%);
+      }
+      @media (min-width: 768px) {
+        .hero-img-mask {
+          /* Di Laptop/Desktop: Gradasi kiri agar menyatu dengan teks */
+          -webkit-mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 25%
+          );
+          mask-image: linear-gradient(to right, transparent 0%, black 25%);
+        }
+      }
+    </style>
+  </head>
+  <body class="font-body bg-paper text-ink">
+    <nav class="site-nav no-print">
+      <div
+        class="max-w-5xl mx-auto px-6 flex items-center justify-between h-16"
+      >
+        <a href="index.html" class="font-display font-medium text-lg text-ink"
+          >Iqbal Fauzan<span class="text-blueprint">.</span></a
+        >
+        <button
+          id="nav-toggle"
+          class="md:hidden p-2"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+        <div id="nav-menu" class="md:flex items-center gap-7 py-4 md:py-0">
+          <a
+            class="nav-link block py-2 md:py-0"
+            href="#about"
+            data-i18n="nav.about"
+            >About</a
+          >
+          <a
+            class="nav-link block py-2 md:py-0"
+            href="#skills"
+            data-i18n="nav.skills"
+            >Skills</a
+          >
+          <a
+            class="nav-link block py-2 md:py-0"
+            href="#experience"
+            data-i18n="nav.experience"
+            >Experience</a
+          >
+          <a
+            class="nav-link block py-2 md:py-0"
+            href="#projects"
+            data-i18n="nav.projects"
+            >Projects</a
+          >
+          <a
+            class="nav-link block py-2 md:py-0"
+            href="cv.html"
+            data-i18n="nav.cv"
+            >CV</a
+          >
+          <a
+            class="nav-link block py-2 md:py-0"
+            href="#contact"
+            data-i18n="nav.contact"
+            >Contact</a
+          >
+          <div class="flex gap-1 pt-2 md:pt-0">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+            <button class="lang-btn" data-lang="id">ID</button>
           </div>
         </div>
+      </div>
+    </nav>
 
-        <!-- Image Column -->
-        <div class="relative z-0 w-full md:w-[50%] md:-ml-12 mt-8 md:mt-0 flex justify-center md:justify-end shrink-0">
-          <img
-            src="assets/images/profile/profile.webp"
-            alt="Iqbal Fauzan"
-            class="hero-img-mask w-full max-w-[360px] md:max-w-[420px] h-auto object-contain object-bottom pointer-events-none"
-          />
-          <!-- ID.01 tetap di pojok kanan atas foto -->
-          <span class="absolute top-4 right-4 md:right-4 bg-paper-alt text-ink font-mono text-[10px] px-2 py-1 rounded-sm border border-hairline font-semibold">ID.01</span>
+    <main>
+      <!-- HERO -->
+      <section class="relative overflow-hidden">
+        <!-- Grid Background -->
+        <div
+          class="grid-blueprint absolute inset-0 h-full pointer-events-none"
+        ></div>
+
+        <div
+          class="relative max-w-5xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28"
+        >
+          <!-- Wrapper with solid background to overlay the grid elegantly -->
+          <div
+            class="relative flex flex-col md:flex-row items-center justify-between bg-paper z-10"
+          >
+            <!-- Text Column -->
+            <div
+              class="relative z-10 flex flex-col justify-center w-full md:w-[60%] py-4 md:py-8"
+            >
+              <p
+                class="font-display text-2xl md:text-[2.25rem] font-medium text-ink mb-1 md:mb-3"
+              >
+                hi, i’m
+              </p>
+
+              <!-- Name in single line with whitespace-nowrap -->
+              <h1
+                class="font-display text-5xl md:text-[5.5rem] font-bold leading-[1] tracking-tight mb-4 text-ink whitespace-nowrap relative z-20"
+              >
+                Iqbal Fauzan
+              </h1>
+
+              <p
+                class="text-base md:text-xl font-display font-medium text-ink mb-1 uppercase tracking-wide"
+                data-i18n="hero.eyebrow"
+              >
+                IOT & AUTOMATION ENGINEER
+              </p>
+
+              <!-- Tagline sized down -->
+              <p
+                class="text-sm md:text-base text-inkmuted mb-8"
+                data-i18n="hero.tagline"
+              >
+                Bridging OT & IT for Industry 4.0
+              </p>
+
+              <div class="flex flex-wrap items-center gap-4 mb-8">
+                <a
+                  href="cv.html"
+                  class="btn !bg-black !text-white !border-black hover:!bg-white hover:!text-black !px-6 !py-2.5 !rounded-md font-medium transition-colors"
+                  data-i18n="hero.ctaCV"
+                  >Download CV</a
+                >
+                <a
+                  href="projects.html"
+                  class="btn !bg-transparent !text-black border border-black hover:!bg-gray-100 !px-6 !py-2.5 !rounded-md font-medium transition-colors"
+                  data-i18n="hero.ctaProjects"
+                  >View projects</a
+                >
+              </div>
+
+              <div
+                class="inline-flex items-center gap-2.5 px-4 py-2 bg-[#E2F0E9] rounded-full w-max shadow-sm relative z-20"
+              >
+                <span class="w-3 h-3 rounded-full bg-[#1E8F6F]"></span>
+                <span
+                  class="text-xs md:text-sm font-medium text-ink"
+                  data-i18n="hero.status"
+                  >Open to new opportunities</span
+                >
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <div
+              class="relative z-0 w-full md:w-[50%] md:-ml-12 mt-8 md:mt-0 flex justify-center md:justify-end shrink-0"
+            >
+              <img
+                src="assets/images/profile/profile.webp"
+                alt="Iqbal Fauzan"
+                class="hero-img-mask w-full max-w-[360px] md:max-w-[420px] h-auto object-contain object-bottom pointer-events-none"
+              />
+              <!-- ID.01 tetap di pojok kanan atas foto -->
+              <span
+                class="absolute top-4 right-4 md:right-4 bg-paper-alt text-ink font-mono text-[10px] px-2 py-1 rounded-sm border border-hairline font-semibold"
+                >ID.01</span
+              >
+            </div>
+          </div>
         </div>
+      </section>
 
+      <!-- ABOUT -->
+      <section
+        id="about"
+        class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline"
+      >
+        <span class="section-label" data-i18n="about.label"
+          >REC.01 — ABOUT</span
+        >
+        <h2
+          class="font-display text-2xl md:text-3xl font-medium mb-8 reveal"
+          data-i18n="about.heading"
+        >
+          About me
+        </h2>
+        <div class="grid md:grid-cols-3 gap-10">
+          <p
+            class="md:col-span-2 text-base leading-relaxed reveal js-about-text"
+          ></p>
+          <div class="reveal">
+            <p class="meta-label mb-3" data-i18n="about.stackLabel">
+              Primary stack
+            </p>
+            <div class="js-primary-stack"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section
+        id="skills"
+        class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline"
+      >
+        <span class="section-label" data-i18n="skills.label"
+          >REC.02 — SKILLS</span
+        >
+        <h2
+          class="font-display text-2xl md:text-3xl font-medium mb-6 reveal"
+          data-i18n="skills.heading"
+        >
+          Technical skills
+        </h2>
+        <div id="skills-groups"></div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section
+        id="experience"
+        class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline"
+      >
+        <span class="section-label" data-i18n="experience.label"
+          >REC.03 — EXPERIENCE</span
+        >
+        <h2
+          class="font-display text-2xl md:text-3xl font-medium mb-10 reveal"
+          data-i18n="experience.heading"
+        >
+          Work history
+        </h2>
+        <div id="experience-timeline"></div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section
+        id="projects"
+        class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline"
+      >
+        <span class="section-label" data-i18n="projects.label"
+          >REC.04 — PROJECTS</span
+        >
+        <div class="flex items-end justify-between flex-wrap gap-4 mb-10">
+          <h2
+            class="font-display text-2xl md:text-3xl font-medium reveal"
+            data-i18n="projects.heading"
+          >
+            Featured projects
+          </h2>
+          <a
+            href="projects.html"
+            class="text-sm font-medium text-blueprint"
+            data-i18n="projects.viewAll"
+            >View all projects →</a
+          >
+        </div>
+        <div id="featured-projects" class="grid md:grid-cols-2 gap-6"></div>
+      </section>
+
+      <!-- CONTACT -->
+      <section
+        id="contact"
+        class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline"
+      >
+        <span class="section-label" data-i18n="contact.label"
+          >REC.08 — CONTACT</span
+        >
+        <h2
+          class="font-display text-2xl md:text-3xl font-medium mb-4 reveal"
+          data-i18n="contact.heading"
+        >
+          Let's connect
+        </h2>
+        <p class="text-inkmuted mb-8 max-w-lg reveal" data-i18n="contact.body">
+          Open to discussing IoT, industrial automation, or other opportunities.
+        </p>
+        <div class="flex flex-wrap gap-4 reveal">
+          <a
+            class="btn btn-primary js-email-href"
+            href="#"
+            data-i18n="contact.emailCta"
+            >Send an email</a
+          >
+          <a
+            class="btn btn-outline js-github-href"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a
+            class="btn btn-outline js-linkedin-href"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="title-block no-print">
+      <div class="max-w-5xl mx-auto title-block-grid">
+        <div class="title-block-cell">
+          <span class="title-block-label" data-i18n="footer.drawnBy"
+            >DRAWN BY</span
+          >
+          <span class="title-block-value">Iqbal Fauzan</span>
+        </div>
+        <div class="title-block-cell">
+          <span class="title-block-label" data-i18n="footer.date">DATE</span>
+          <span class="title-block-value js-footer-date">—</span>
+        </div>
+        <div class="title-block-cell">
+          <span class="title-block-label" data-i18n="footer.rev">REV</span>
+          <span class="title-block-value">A</span>
+        </div>
+        <div class="title-block-cell">
+          <span class="title-block-label"
+            >&copy; <span class="js-footer-year"></span
+          ></span>
+          <span class="title-block-value" data-i18n="footer.rights"
+            >All rights reserved.</span
+          >
+        </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- ABOUT -->
-  <section id="about" class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline">
-    <span class="section-label" data-i18n="about.label">REC.01 — ABOUT</span>
-    <h2 class="font-display text-2xl md:text-3xl font-medium mb-8 reveal" data-i18n="about.heading">About me</h2>
-    <div class="grid md:grid-cols-3 gap-10">
-      <p class="md:col-span-2 text-base leading-relaxed reveal js-about-text"></p>
-      <div class="reveal">
-        <p class="meta-label mb-3" data-i18n="about.stackLabel">Primary stack</p>
-        <div class="js-primary-stack"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline">
-    <span class="section-label" data-i18n="skills.label">REC.02 — SKILLS</span>
-    <h2 class="font-display text-2xl md:text-3xl font-medium mb-6 reveal" data-i18n="skills.heading">Technical skills</h2>
-    <div id="skills-groups"></div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section id="experience" class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline">
-    <span class="section-label" data-i18n="experience.label">REC.03 — EXPERIENCE</span>
-    <h2 class="font-display text-2xl md:text-3xl font-medium mb-10 reveal" data-i18n="experience.heading">Work history</h2>
-    <div id="experience-timeline"></div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline">
-    <span class="section-label" data-i18n="projects.label">REC.04 — PROJECTS</span>
-    <div class="flex items-end justify-between flex-wrap gap-4 mb-10">
-      <h2 class="font-display text-2xl md:text-3xl font-medium reveal" data-i18n="projects.heading">Featured projects</h2>
-      <a href="projects.html" class="text-sm font-medium text-blueprint" data-i18n="projects.viewAll">View all projects →</a>
-    </div>
-    <div id="featured-projects" class="grid md:grid-cols-2 gap-6"></div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="max-w-5xl mx-auto px-6 py-20 md:py-28 border-t border-hairline">
-    <span class="section-label" data-i18n="contact.label">REC.08 — CONTACT</span>
-    <h2 class="font-display text-2xl md:text-3xl font-medium mb-4 reveal" data-i18n="contact.heading">Let's connect</h2>
-    <p class="text-inkmuted mb-8 max-w-lg reveal" data-i18n="contact.body">Open to discussing IoT, industrial automation, or other opportunities.</p>
-    <div class="flex flex-wrap gap-4 reveal">
-      <a class="btn btn-primary js-email-href" href="#" data-i18n="contact.emailCta">Send an email</a>
-      <a class="btn btn-outline js-github-href" href="#" target="_blank" rel="noopener">GitHub</a>
-      <a class="btn btn-outline js-linkedin-href" href="#" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
-  </section>
-</main>
-
-<footer class="title-block no-print">
-  <div class="max-w-5xl mx-auto title-block-grid">
-    <div class="title-block-cell">
-      <span class="title-block-label" data-i18n="footer.drawnBy">DRAWN BY</span>
-      <span class="title-block-value">Iqbal Fauzan</span>
-    </div>
-    <div class="title-block-cell">
-      <span class="title-block-label" data-i18n="footer.date">DATE</span>
-      <span class="title-block-value js-footer-date">—</span>
-    </div>
-    <div class="title-block-cell">
-      <span class="title-block-label" data-i18n="footer.rev">REV</span>
-      <span class="title-block-value">A</span>
-    </div>
-    <div class="title-block-cell">
-      <span class="title-block-label">&copy; <span class="js-footer-year"></span></span>
-      <span class="title-block-value" data-i18n="footer.rights">All rights reserved.</span>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/js/script.js"></script>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
